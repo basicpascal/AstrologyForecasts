@@ -1,0 +1,49 @@
+<!-- res/layout/fragment_edit_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя пользователя"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextZodiacSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Знак зодиака"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пол"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Возраст"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Регион"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить изменения" />
+
+</LinearLayout>

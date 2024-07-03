@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Астрологические прогнозы</string>
+    <string name="title_home">Главная</string>
+    <string name="title_forecasts">Прогнозы</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтверждение пароля</string>
+    <string name="email">Email</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_edit_profile">Редактирование профиля</string>
+</resources>
